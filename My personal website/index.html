@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olena's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" href="img/Favicon/favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Sidebar and Footer -->
+    <aside class="sidebar">
+        <div class="profile-pic">
+            <img src="img/photo_2025-03-18_15-54-53.jpg" alt="Olena's profile picture">
+        </div>
+        <h1>Olena</h1>
+        <nav>
+            <ul>
+                <li><a href="#home"><b>HOME</b></a></li>
+                <li><a href="#experience"><b>EXPERIENCE</b></a></li>
+                <li><a href="#hobby"><b>HOBBY</b></a></li>
+                <li><a href="#contact"><b>CONTACT</b></a></li>
+            </ul>
+        </nav>
+        <footer class="sidebar-footer">
+            <div class="social-links">
+                <a href="https://github.com/babussia" target="_blank">
+                    <img src="img/logo/Github-Logo-Transparent-Background-PNG.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/olena-tabunshchyk-069140283/" target="_blank">
+                    <img src="img/logo/linkedin-logo-linkedin-icon-transparent-free-png.webp" alt="LinkedIn">
+                </a>
+            </div>
+            <p>© 2025 Olena. All rights reserved.</p>
+        </footer>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <main>
+            <section id="home">
+                <h1 class="hello">HELLO,</h1>
+                <p class="intro-text">
+                    I am Olena, a former social media manager from Ukraine, now living in London. 
+                    I love coming up with creative ideas and exploring new opportunities.
+                </p>
+                <a href="#contact" class="contact-button">CONTACT ME</a>
+            </section>
+
+            <section id="experience">
+                <h2><strong>Experience</strong></h2>
+                <p>Previously worked as a Social Media Manager, managing campaigns, content creation, and brand strategies.</p>
+                <table bgcolor="#8a2be2">
+                    <tr bgcolor="#8a2be2">
+                        <th style="color:white;">Year</th>
+                        <th style="color:white;">Position</th>
+                        <th style="color:white;">Summary</th>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#fff">2021-2022</td>
+                        <td bgcolor="#fff">Social Media Manager</td>
+                        <td bgcolor="#fff"> 
+                            <ul> 
+                                <li>Led a team of three, increasing engagement on TikTok, Instagram, and Facebook.</li>
+                                <li>Generated creative content ideas, achieving 10K followers and driving 10% monthly revenue growth.</li>
+                                <li>Analyzed campaign performance to optimize posting strategies for maximum engagement.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#fff">2019-2021</td>
+                        <td bgcolor="#fff">Senior Data Researcher</td>
+                        <td bgcolor="#fff">
+                            <ul>
+                                <li>Conducted in-depth data analysis to help clients identify total addressable markets and growth opportunities.</li>
+                                <li>Utilized advanced LinkedIn tools to gather industry insights and competitor intelligence.</li>
+                                <li>Improved algorithm-driven targeting methods based on customer feedback.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#fff">2019-2020</td>
+                        <td bgcolor="#fff">Marketing Manager</td>
+                        <td bgcolor="#fff">
+                            <ul>
+                                <li>Developed Instagram and Telegram channels, growing to 10K followers.</li>
+                                <li>Partnered with influencers and implemented weekly promotional calendars.</li>
+                                <li>Executed native advertising strategies and targeted radio campaigns to enhance brand visibility.</li>
+                            </ul>     
+                        </td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="hobby">
+                <h2><strong>Hobby</strong></h2>
+                <p>I enjoy running with my friends, hiking from time to time, and making gluten-free, sugar-free sweets! .. 
+                    <a href="recipe.html" id="recipeLink"><b>my fav recipe is here</b></a> — hope you like it!</p>
+                <div class="image-grid">
+                    <div class="image-item">
+                        <img src="img/hobbies/IMG_8017.JPG" alt="Fun Fact Image 1">
+                        <div class="overlay">Making sweets</div>
+                    </div>
+                    <div class="image-item">
+                        <img src="img/hobbies/IMG_8962.JPG" alt="Fun Fact Image 2">
+                        <div class="overlay">Hiking</div>
+                    </div>
+                    <div class="image-item">
+                        <img src="img/hobbies/IMG_2769.JPG" alt="Fun Fact Image 3">
+                        <div class="overlay">Running</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2><strong>Contact</strong></h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="icon">📞</span>
+                        <p><strong>Call me</strong><br>+44 77..010..6</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">✉️</span>
+                        <p><strong>Email me</strong><br>ot.tabunshchyk@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">📍</span>
+                        <p><strong>Find me in</strong><br>London</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-row">
+                        <input type="text" placeholder="Your name" required>
+                        <input type="email" placeholder="Email address" required>
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <textarea placeholder="Message..." required></textarea>
+                    <button type="submit">SUBMIT MESSAGE</button>
+                </form>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
